@@ -7,6 +7,7 @@ import Pricing from "./pages/Pricing";
 import Login from "./pages/Login";
 import AppLayout from "./pages/AppLayout";
 import CityList from "./components/CityList";
+import CountriesList from "./components/CountriesList";
 // import City from "./components/City";
 // import Countryitem from "./components/CountryItem";
 // import NavBar from "./components/NavBar";
@@ -44,7 +45,7 @@ function App() {
             path="cities"
             element={<CityList cities={cities} loading={loading} />}
           />
-          <Route path="countries" element={<p>list of countries</p>} />
+          <Route path="countries" element={<CountriesList cities={cities} />} />
         </Route>
       </Routes>
     </BrowserRouter>
