@@ -8,6 +8,9 @@ import Login from "./pages/Login";
 import AppLayout from "./pages/AppLayout";
 import CityList from "./components/CityList";
 import CountriesList from "./components/CountriesList";
+import City from "./components/City";
+import Form from "./components/Form";
+import PageNotfound from "./pages/PageNotFound";
 // import City from "./components/City";
 // import Countryitem from "./components/CountryItem";
 // import NavBar from "./components/NavBar";
@@ -45,8 +48,11 @@ function App() {
             path="cities"
             element={<CityList cities={cities} loading={loading} />}
           />
+          <Route path="cities/:id" element={<City />} />
           <Route path="countries" element={<CountriesList cities={cities} />} />
+          <Route path="form" element={<Form />}></Route>
         </Route>
+        <Route path="*" element={<PageNotfound />}></Route>
       </Routes>
     </BrowserRouter>
   );
