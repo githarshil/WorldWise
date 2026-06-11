@@ -1,12 +1,16 @@
 import styles from "./CityList.module.css";
 import CityItem from "./CityItem";
 import Spinner from "./Spinner";
+import { useCities } from "../contexts/CitiesContext";
 
-function CityList({ cities, loading }) {
+function CityList() {
+  const { cities, loading, currentCity } = useCities();
   if (loading) return <Spinner />;
   if (!cities.length)
     return (
-      <ul className={styles.cityList}>
+      <ul
+        className={`${styles.cityList} ${id === currentCity.id ? styles["CityItem--active"] : ""}`}
+      >
         <li>No cities yet</li>
       </ul>
     );
