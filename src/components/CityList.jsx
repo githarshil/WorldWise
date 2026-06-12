@@ -8,9 +8,7 @@ function CityList() {
   if (loading) return <Spinner />;
   if (!cities.length)
     return (
-      <ul
-        className={`${styles.cityList} ${id === currentCity.id ? styles["CityItem--active"] : ""}`}
-      >
+      <ul className={`${styles.cityList} `}>
         <li>No cities yet</li>
       </ul>
     );

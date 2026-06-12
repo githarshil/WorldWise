@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { useEffect, useState } from "react";
 import Product from "./pages/Product";
 import HomePage from "./pages/HomePage";
 import Pricing from "./pages/Pricing";
@@ -11,7 +10,7 @@ import CountriesList from "./components/CountriesList";
 import City from "./components/City";
 import Form from "./components/Form";
 import PageNotfound from "./pages/PageNotFound";
-import { CitiesProvider, useCities } from "./contexts/CitiesContext";
+import { CitiesProvider } from "./contexts/CitiesContext";
 // import City from "./components/City";
 // import Countryitem from "./components/CountryItem";
 // import NavBar from "./components/NavBar";
