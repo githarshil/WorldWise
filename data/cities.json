@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,30 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "cityName": "Castelló de la Plana",
+      "country": "Spain",
+      "date": "2026-06-13",
+      "notes": "",
+      "position": {
+        "lat": "40.006065102313784",
+        "lng": "-0.04876509930214824"
+      },
+      "id": "F8cA_KtYEyI"
+    },
+    {
+      "cityName": "Borriol",
+      "country": "Spain",
+      "date": "2026-06-13",
+      "notes": "",
+      "position": {
+        "lat": "40.03143037947552",
+        "lng": "-0.04722081402815049"
+      },
+      "id": "_6xbycyXiiE"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
