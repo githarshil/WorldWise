@@ -1,17 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Castelló de la Plana",
-      "country": "Spain",
-      "date": "2026-06-13",
-      "notes": "",
-      "position": {
-        "lat": "40.006065102313784",
-        "lng": "-0.04876509930214824"
-      },
-      "id": "F8cA_KtYEyI"
-    },
-    {
       "cityName": "Borriol",
       "country": "Spain",
       "date": "2026-06-13",
@@ -21,6 +10,17 @@
         "lng": "-0.04722081402815049"
       },
       "id": "_6xbycyXiiE"
+    },
+    {
+      "cityName": "Bengaluru",
+      "country": "India",
+      "date": "2026-06-15",
+      "notes": "",
+      "position": {
+        "lat": "12.924104538159881",
+        "lng": "77.48328646082088"
+      },
+      "id": "M0d8gBsv5gA"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
