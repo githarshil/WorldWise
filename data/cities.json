@@ -21,6 +21,39 @@
         "lng": "77.48328646082088"
       },
       "id": "M0d8gBsv5gA"
+    },
+    {
+      "cityName": "Castelló de la Plana",
+      "country": "Spain",
+      "date": "2026-06-24",
+      "notes": "",
+      "position": {
+        "lat": "39.96240951078639",
+        "lng": "0.0005149841308593751"
+      },
+      "id": "h3JgLeKJK4g"
+    },
+    {
+      "cityName": "Castelló de la Plana",
+      "country": "Spain",
+      "date": "2026-06-24",
+      "notes": "",
+      "position": {
+        "lat": "39.96030492232708",
+        "lng": "-0.0034649662711649936"
+      },
+      "id": "1O_UuXnisR4"
+    },
+    {
+      "cityName": "Castelló de la Plana",
+      "country": "Spain",
+      "date": "2026-06-24",
+      "notes": "",
+      "position": {
+        "lat": "39.96293564777956",
+        "lng": "0.003643803998851781"
+      },
+      "id": "pE2An5JmySw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
